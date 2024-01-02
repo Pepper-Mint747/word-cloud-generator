@@ -1,11 +1,11 @@
 [![Go Test](https://github.com/wickett/word-cloud-generator/actions/workflows/go.yml/badge.svg)](https://github.com/wickett/word-cloud-generator/actions/workflows/go.yml) [![CircleCI](https://circleci.com/gh/wickett/word-cloud-generator/tree/master.svg?style=svg)](https://circleci.com/gh/wickett/word-cloud-generator/tree/master)
 
 # word-cloud-generator
-It's a golang web app that takes a block of text and turns it into a word cloud. 
+It's a Golang web app that takes a block of text and turns it into a word cloud. 
 Star this repo if you like the class!
 
 ## Notice
-This project is a a sample app for a class on Continuous Delivery at LinkedIn Learning. You can see the class as well as other classes I have available at https://www.linkedin.com/learning/instructors/james-wickett. Thanks!
+This project is a sample app for a class on Continuous Delivery at LinkedIn Learning. You can see the class as well as other classes I have available at https://www.linkedin.com/learning/instructors/james-wickett. Thanks!
 
 ## Prerequisites
 1. Install go - https://golang.org/doc/install (Start learning go with the tour - http://tour.golang.org/)
@@ -19,7 +19,7 @@ We use git hooks to standardize development on the project. Please run `make git
 ## Using Make
 
 ### Building Artifacts
-This will pull down dependencies, run unit tests, and compile a linux, mac and windows binary into ./artifacts.
+This will pull down dependencies, run unit tests, and compile a Linux, mac, and windows binary into ./artifacts.
 
 `make`
 
